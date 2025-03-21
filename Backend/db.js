@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const db = mongoose
 
-db.connect("mongodb+srv://admin:lakshya1234@cluster0.6eli8.mongodb.net/mental")
+db.connect("")
 
 const userSchema = new db.Schema({
     username: {
